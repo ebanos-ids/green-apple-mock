@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+/*
+    Navigation Bar
+*/
+
+.navbar{
+    margin-bottom: 0; 
+}
+
+.navigationBar{
+    height: 100px;
+}
+
+.navigationBar_button{
+    border: none;
+    padding: 35px 0;
+    outline: none;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navigationBar_image{
+    width: 200px;
+}
+
+/*
+    SubNavigationBar
+*/
+
+.subNavBar{
+    background-color: black;
+    border: none;
+}
+
+.subNavBar ul{
+    padding: 0 auto;
+}
+
+.subNavBar li{
+    float: left;
+    width: 30%;
+    padding: 0 30px;
+}
+
+.navbar-default .subNavBar > li > a{
+    color: white;
+}
+
+/*
+    PromoBlock
+*/
+
+.promo-block{
+   margin: 0;
+   padding: 10px 0 0 10px;
+}
+
+.promo-block h6{
+    position: relative;
+    z-index: 5;
+}
+
+.promo-block img{
+    width:50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.promo{
+    margin: 0 0 20px 0;
+}
+
+.green-apple{
+    color: #61B22F;
+    text-shadow: 1px 1px black;
+}
+
+.black-apple{
+    color: #61B22F;
+    text-shadow: 1px 1px grey;
+    font-weight: 600;
+}
